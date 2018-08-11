@@ -13,8 +13,17 @@ $ git add .
 COMMIT:
 $ git commit -m "message"
 
+PUSH: default = first branch is the master.
+tell Git the branch name you want and the name of the remote it lives on.
+usually -
+$ git push origin master
+
 CHECK DIFFERENCES:
 $ git diff
 
 CHECK LOG:
 $ git log
+
+ADDING REMOTE ORIGIN:
+$ git remote add origin <URLFROMGITHUB>
+
