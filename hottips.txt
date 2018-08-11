@@ -1,0 +1,17 @@
+hot tips
+
+CHECK STATUS:
+$ git status
+
+
+ADD A FILE:
+$ git add "filename"
+
+COMMIT:
+$ git commit -m "message"
+
+CHECK DIFFERENCES:
+$ git diff
+
+CHECK LOG:
+$ git log
