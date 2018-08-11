@@ -27,3 +27,48 @@ $ git log
 ADDING REMOTE ORIGIN:
 $ git remote add origin <URLFROMGITHUB>
 
+ADD A REMOTE:
+$ git remote add <REMOTENAME> <URL>
+
+CHANGE A REMOTE URL:
+$ git remote set-url <REMOTENAME> <URL>
+
+VIEW REMOTE CONNECTIONS: 
+$ git remote -v
+
+
+branching:
+It's common practice when working on a project or with others on a project to create a branch to keep your working changes in. This way you can do your work while the main, commonly named 'master', branch stays stable. When the work on your branch is finished you merge it back into the 'master' master branch.
+
+You can create and switch to a branch in one line
+$ git checkout -b <BRANCHNAME>
+
+Create a new branch
+$ git branch <BRANCHNAME>
+
+Move onto a branch
+$ git checkout <BRANCHNAME>
+
+List the branches
+$ git branch
+
+Rename a branch you're currently on
+$ git branch -m <NEWBRANCHNAME>
+
+Verify what branch you're working on
+$ git status
+
+Merge a branch into current branch
+$ git merge <BRANCHNAME>
+
+Change the branch you're working on
+$ git checkout <BRANCHNAME>
+
+Delete a local branch
+$ git branch -d <BRANCHNAME>
+
+Delete a remote branch
+$ git push <REMOTENAME> --delete <BRANCHNAME>
+
+Pull from a remote branch
+$ git pull <REMOTENAME> <BRANCHNAME>
