@@ -7,6 +7,9 @@ $ git status
 ADD A FILE:
 $ git add "filename"
 
+ADD ALL FILE CHANGES
+$ git add .
+
 COMMIT:
 $ git commit -m "message"
 
